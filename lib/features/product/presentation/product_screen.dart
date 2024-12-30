@@ -67,7 +67,7 @@ class ProductScreen extends StatelessWidget {
         return Card(
           margin: EdgeInsets.all(8),
           child: ListTile(
-            leading: Image.network(product.image),
+            //leading: Image.network(product.image), // Uncomment this line to show the image if the image URL is available
             title: Text(product.name),
             subtitle: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
